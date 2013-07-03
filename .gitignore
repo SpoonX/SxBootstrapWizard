@@ -1,0 +1,9 @@
+.buildpath
+.project
+.settings
+.DS_Store
+vendor
+.idea
+phpunit.xml
+.nbproject
+clover.xml

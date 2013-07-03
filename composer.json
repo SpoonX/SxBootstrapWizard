@@ -1,0 +1,42 @@
+{
+    "name" : "spoonx/sxbootstrapwizard",
+    "description" : "A wizard module for twitter bootstrap, depending on SxBootstrap.",
+    "type" : "module",
+    "license" : "BSD-3-Clause",
+    "homepage" : "https://github.com/SpoonX/SxBootstrapWizard",
+    "keywords" : [
+        "zf2",
+        "module",
+        "wizard",
+        "bootstrap",
+        "sxbootstrap"
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "version": "dev-master",
+                "name": "amoffat/bootstrap-application-wizard",
+                "source": {
+                    "url": "https://github.com/amoffat/bootstrap-application-wizard.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "require" : {
+        "php" : ">=5.3.3",
+        "zendframework/zendframework" : "2.*",
+        "spoonx/sxbootstrap": "2.*",
+        "amoffat/bootstrap-application-wizard": "dev-master"
+    },
+    "require-dev" : {
+        "phpunit/phpunit" : "*"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "SxBootstrapWizard\\" : "src/"
+        }
+    }
+}
