@@ -5,7 +5,7 @@ Installation
 ------------
 1. Add the following repository to your composer.json file:
 
-    ```
+    ```json
     {
         "repositories": [
             {
@@ -25,7 +25,12 @@ Installation
     ```
 
 2. Add this module as a dependency through composer:
-    `composer require spoonx/sxbootstrapwizard`
+
+```bash
+    composer require spoonx/sxbootstrapwizard
+    # When asked for a version, type 1.*
+```
+
 
 ## Usage
 
