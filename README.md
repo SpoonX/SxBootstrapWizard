@@ -24,7 +24,7 @@ Installation
     }
     ```
 
-2. Add the dependenciesto your composer.json file:
+2. Add the dependencies to your composer.json file:
 
 ```bash
     "require": {
