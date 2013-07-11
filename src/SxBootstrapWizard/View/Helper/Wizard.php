@@ -153,7 +153,7 @@ class Wizard extends AbstractElementHelper
     /**
      * @param string $cardName
      *
-     * @return string
+     * @return HtmlElement|null
      */
     public function getCard($cardName)
     {
