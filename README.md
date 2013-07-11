@@ -24,11 +24,13 @@ Installation
     }
     ```
 
-2. Add this module as a dependency through composer:
+2. Add the dependenciesto your composer.json file:
 
 ```bash
-    composer require spoonx/sxbootstrapwizard
-    # When asked for a version, type 1.*
+    "require": {
+        "amoffat/bootstrap-application-wizard": "dev-master@dev",
+        "spoonx/sxbootstrapwizard": "0.1.*"
+    }
 ```
 
 
