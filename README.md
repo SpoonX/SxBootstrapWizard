@@ -1,38 +1,15 @@
 # SxBootstrapWizard
-A module that implements [this wizard plugin](https://github.com/amoffat/bootstrap-application-wizard).
+A twitter   bootstrap wizard.
 
 Installation
 ------------
-1. Add the following repository to your composer.json file:
-
-    ```json
-    {
-        "repositories": [
-            {
-                "type": "package",
-                "package": {
-                    "version": "dev-master",
-                    "name": "amoffat/bootstrap-application-wizard",
-                    "source": {
-                        "url": "https://github.com/amoffat/bootstrap-application-wizard.git",
-                        "type": "git",
-                        "reference": "master"
-                    }
-                }
-            }
-        ]
-    }
-    ```
-
-2. Add the dependencies to your composer.json file:
+1. Add the dependency to your composer.json file:
 
 ```bash
     "require": {
-        "amoffat/bootstrap-application-wizard": "dev-master@dev",
-        "spoonx/sxbootstrapwizard": "0.1.*"
+        "spoonx/sxbootstrapwizard": "0.2.*"
     }
 ```
-
 
 ## Usage
 
