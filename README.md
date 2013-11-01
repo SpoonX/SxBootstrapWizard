@@ -7,7 +7,7 @@ Installation
 
 ```bash
     "require": {
-        "spoonx/sxbootstrapwizard": "0.1.*"
+        "spoonx/sxbootstrapwizard": "0.2.*"
     }
 ```
 
