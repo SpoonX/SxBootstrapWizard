@@ -1,7 +1,5 @@
 <?php
 
-$wizardPath = 'vendor/amoffat/bootstrap-application-wizard';
-
 return array(
     'view_helpers'  => array(
         'invokables' => array(
@@ -14,9 +12,8 @@ return array(
     'asset_manager' => array(
         'resolver_configs' => array(
             'map' => array(
-                'css/bootstrap-wizard.css'   => $wizardPath . '/src/bootstrap-wizard.css',
-                'js/bootstrap-wizard.js'     => $wizardPath . '/src/bootstrap-wizard.js',
-                'js/bootstrap-wizard.min.js' => $wizardPath . '/src/bootstrap-wizard.min.js',
+                'css/bootstrap-wizard.css'   => __DIR__ . '/../assets/css/bootstrap-wizard.css',
+                'js/bootstrap-wizard.js'     => __DIR__ . '/../assets/js/bootstrap-wizard.js',
             ),
         ),
     ),

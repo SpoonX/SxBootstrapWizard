@@ -11,25 +11,10 @@
         "bootstrap",
         "sxbootstrap"
     ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "version": "dev-master",
-                "name": "amoffat/bootstrap-application-wizard",
-                "source": {
-                    "url": "https://github.com/amoffat/bootstrap-application-wizard.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
-        }
-    ],
     "require" : {
         "php" : ">=5.3.3",
         "zendframework/zendframework" : "2.*",
-        "spoonx/sxbootstrap": "2.*",
-        "amoffat/bootstrap-application-wizard": "dev-master"
+        "spoonx/sxbootstrap": "2.*"
     },
     "require-dev" : {
         "phpunit/phpunit" : "*"

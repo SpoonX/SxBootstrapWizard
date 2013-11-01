@@ -35,17 +35,16 @@ class WizardAssets extends AbstractHelper
 
     /**
      * @param boolean $append
-     * @param boolean $min      Minified version
      *
      * @return $this
      */
-    public function addJs($append = true, $min = true)
+    public function addJs($append = true)
     {
         $scriptHelper = $this->getView()->plugin('head_script');
         $baseHelper   = $this->getView()->plugin('base_path');
         $method       = $append ? 'appendFile' : 'prependFile';
 
-        $scriptHelper->$method($baseHelper('/js/bootstrap-wizard'.($min ? '.min' : '').'.js'));
+        $scriptHelper->$method($baseHelper('/js/bootstrap-wizard.js'));
 
         return $this;
     }
